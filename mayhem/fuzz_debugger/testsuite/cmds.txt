@@ -1,0 +1,29 @@
+print [$c000] + 1
+breakpoint $160 if a == $42
+watch/rw $c001
+list
+registers
+backtrace
+disassemble/8 pc
+examine/16 $c000
+examine/4s $150
+cartridge
+apu
+wave/f
+lcd
+palettes
+dma
+ticks
+usage
+step
+next
+finish
+continue
+interrupt
+undo
+help breakpoint
+print (hl) * 3 / 2 % 7 ^ $ff
+print $1:$4000
+delete
+unwatch
+softbreak on

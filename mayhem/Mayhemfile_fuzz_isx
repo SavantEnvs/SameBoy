@@ -1,0 +1,6 @@
+project: savantenvs/SameBoy
+target: fuzz_isx
+cmds:
+  - cmd: /mayhem/fuzz_isx
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,9 @@
+project: savantenvs/SameBoy
+target: fuzz_load_state
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_load_state/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_load_state
+    libfuzzer: true
+    timeout: 10

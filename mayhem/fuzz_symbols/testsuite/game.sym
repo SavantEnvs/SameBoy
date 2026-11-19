@@ -1,0 +1,7 @@
+; symbols
+00:0160 start
+00:0170 main
+01:4000 bank1_func
+00:c000 wram_var
+bogus line
+00:0174 main.loop

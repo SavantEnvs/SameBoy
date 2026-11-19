@@ -1,0 +1,6 @@
+print af | bc & de
+eval $ff << 2 >> 1
+print [hl] == $42 && sp != 0
+watch/w $c000 to $c010 if new > old
+breakpoint $0:$150 to $200
+reset
